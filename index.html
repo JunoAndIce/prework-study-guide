@@ -11,6 +11,7 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -116,6 +117,7 @@
             <li>-A: All changes</li>
             <li>-b: New Branch</li>
             <li>-m: New Message</li>
+            <li>main: main branch</li>
             <li>pull: recieve branch's modifications into local branch</li>
             <li>push: add new changes to an existing branch</li>
             <li>origin: Source (Main branch/feature branch)</li>
@@ -125,14 +127,36 @@
 
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
+        <br>
+        <p>JavaScript gives interactivity to a website. JavaScript allows clickable buttons, links and much more to function, which give life to a webpage.</p>
         <ul>
-          <li>Enter your JavaScript notes here</li>
+          <li>Javascript variables can be declared with the var keyword.</li>
+          <li>Variables can be anything, as JavaScript is a dynamic language with dynamic types. Javascript variables are not directly associated with specific types.</li>
+          <li>JavaScript allows implicit type conversions automatically which means that adding a string to a integer will coerce the int into a string to allow them to be properly used together without throwing errors.</li>
+
         </ul>
+        <br>
+        <p>Arrays are a useful way of holding multiple different variables inside of just one variable.</p>
+        <p>Variables can be delcared in an array form by using brackets [ ], and inputting the relevant information inside the brackets. </p>
+        <p>For example: var topics = ['HTML', 'GIT', 'CSS', 'JavaScript'] will store four string variables inside of the topics variable.</p>
+        <p>To call a variable in an array, you type the variable name and it's index number in brackets. The index number is the location of the variable in the array.</p>
+        <p>Calling 'HTML' will require the user to type, topics[0] where topics is the array where 'HTML' is located in, and 0 is the index. The first slot in an array is always 0.</p>
+        <br>
+
+        <p>For-Loops require three parts:</p>
+        <ul>
+          <li>The Starting Point: By delcaring a variable Ex. (var x = 0) The for loop now has a starting point at 0 using x as it's variable.</li>
+          <li>The Condition Statement: The condition statement tells the for loop a rule that it will uphold in order to keep the loop going, and as long as that rule remains true, the loop will continue. Ex. (x < topics.length). This information tells us that as long as X is less than the length of the topics array, it will continue to loop.</li>
+          <li>The Variable Increment: Finally, you will increment the starting variable. This depends on how your array is handled, but usually you will increment the value by 1 using (x++). Now when the loop completes once, it will go back through but now with +1 added to x.</li>
+        </ul>
+        <br>
+        <p>This usually contiues until the condition statement is no longer true, which is when the for-loop will stop.</p>
       </section>
     </main>
 
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
